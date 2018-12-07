@@ -94,7 +94,7 @@ public class I2KTutorial {
 		final Storage storage = storageClient.create();
 
 		N5GoogleCloudStorageReader googleN5 = new N5GoogleCloudStorageReader(storage, "lauritzen-02-n5");
-//		System.out.println(Arrays.toString(googleN5.list("/")));
+//	System.out.println(Arrays.toString(googleN5.list("/")));
 
 		//Open a volume that is too large for memory
 		final RandomAccessibleInterval<UnsignedByteType> googleImg =
